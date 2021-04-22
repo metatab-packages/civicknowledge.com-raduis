@@ -12,19 +12,19 @@ Variant,
 Version,1.1.1
 Version.Major,1
 Version.Minor,1
-Version.Patch,1
+Version.Patch,2
 Created,2021-04-02T21:47:39
 Modified,2021-04-03T04:34:30
 Giturl,https://github.com/metatab-packages/civicknowledge.com-raduis.git
-""
+
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
-""
+
 Section,Documentation,Title,Description,
 Documentation,file:README.md,README,,
-""
+
 Section,References,Name,Description,
-""
+
 Section,Resources,Name,Description,ExtraPoints,
 Datafile,index:civicknowledge.com-geohash-us#us_tracts,us_tracts,,,
 Datafile,index:civicknowledge.com-geohash-us#utm_buffered_zones,utm_buffered_zones,,,
@@ -36,7 +36,7 @@ Datafile,index:civicknowledge.com-osm-demosearch#nonres_roads,nonres_roads,,,
 Datafile,index:civicknowledge.com-osm-demosearch#residential_roads,residential_roads,,,
 Datafile,index:civicknowledge.com-osm-demosearch#bus_densities,bus_densities,,,
 Datafile,index:chrismeller.github.com-starbucks#us_starbucks,us_starbucks,,1,
-""
+
 Section,Schema,DataType,AltName,Description,Has_Codes,Tablecode
 Table,us_tracts,,,,,
 Table.Column,geoid,string,,,,
